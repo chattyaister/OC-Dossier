@@ -270,3 +270,9 @@ footer {
 .bio-text {
     color: white;
 }
+
+.bio-text {
+    opacity: 1;
+    transform: none;
+    color: #eeeeee;
+}
