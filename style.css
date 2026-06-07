@@ -197,3 +197,13 @@ footer {
         border-color: transparent;
     }
 }
+
+.dossier-card:hover {
+    transform: translateY(-8px) scale(1.02);
+
+    box-shadow:
+        0 0 15px rgba(124, 58, 237, 0.3),
+        0 0 30px rgba(124, 58, 237, 0.2);
+
+    border-left-width: 12px;
+}
