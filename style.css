@@ -271,3 +271,16 @@ footer {
     color: white;
 }
 
+.header-divider {
+    width: 300px;
+    height: 2px;
+
+    margin: 20px auto;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        #c084fc,
+        transparent
+    );
+}
