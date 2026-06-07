@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aluran Combat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header class="site-header">
+        <p class="access-warning">CLASSIFIED RECORD</p>
+         <h1 class="typewriter">ALURAN 'THE DOCTOR'</h1>
+        <p class="subtitle">Subject File 002-D — Combat Capabilities</p>
+    </header>
+
+    <main class="profile-page">
+
+        <a href="wisteria.html" class="back-link">← Return to Subject File</a>
+  <section class="profile-card">
+            <h2>Combat Data</h2>
+                     <p><strong>Range:</strong> Non-Combat</p>
+      <p>The man is not a fighter by any means. But when he does engage in battle his attacks are precise and calculated, aiming for weak spots in the enemy’s defense, scalpel at the ready..</p>
+            <p><strong>Notable Traits:</strong> Stealth, assassinations, single lethal blows</p>
+            <p><strong>Threat Level:</strong> Severe</p>
+        </section>
+
+        <section class="profile-card">
+            <h2>Vials of Acid</h2>
+            
+            <p>The doctor has vials containing a potent acid of some kind, and when thrown, the vials shatter and spread it’s content on the target. The acid burns at aura shields, and is potent enough to eat through clothing and skin if unprotected.<p/>
+            
+            <h2>Scalpels</h2>
+
+            <p>Just ordinary sharp medical instruments, for precise cuts.</p>
+          
+         </section>
+
+        <section class="profile-card">
+            <h2>Dust Usage</h2>
+            
+            <p> Steam Dust </p>
+            
+            <P> He has some steam dust on hand always, that he uses to create a smokescreen effect to prevent enemies from attacking accurately and hide himself away. </P>
+            
+            <p>Fire Dus</p>
+
+            <p> pure, fine powdered fire dust in a vial. Perfect for causing minor explosions. </p>
+
+            <p>In powdered form, placed inside a vial. She carries three vials with her. When needed, she tosses the vial and sets it off to cause a moderate explosion at the site.</p>
+        </Section>
+        
+            <div class="profile-grid">            
+        <section class="profile-card">
+            <h2>Strenghts</h2>
+            <p><strong>Thinking outside the box.</strong> He’s known to think up unique and surprisingly effective solutions to problems he comes across, which can sometimes come in quite handy in dire situations.</p>
+            <p><strong>Silence.</strong> he is naturally quiet, his voice, his footsteps, and overall ambient noise he creates. This makes him apt at stealthing. He is seen standing around quietly undetected, quietly listening in on information that would otherwise go unshared. </p>
+           
+        </section>
+<section class="profile-card">
+    <h2>Weaknesses</h2>
+            <p><strong>Strength</strong>He is quite weak strength-wise, and could not best the average huntsman or huntress when it comes to raw power.</p>
+            <p><strong>I’d rather not… </strong> He is not fond of engaging in combat, never initiates combat himself- only defends himself if a fight unfolds. Even so, he is more likely to escape combat rather than actively engage.</p>
+            
+ </div>
+
+         
+            
+
+
+    <script>
+    const cards = document.querySelectorAll(".profile-card");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
+    });
+
+    cards.forEach(card => observer.observe(card));
+</script>
+            
+        </section>
+
+    </main>
+    
+</body>
+</html>
+
+<link rel="stylesheet" href="style.css">
