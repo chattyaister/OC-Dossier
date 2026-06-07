@@ -289,3 +289,7 @@ footer {
         transparent
     );
 }
+
+.site-header {
+    text-align: center;
+}
