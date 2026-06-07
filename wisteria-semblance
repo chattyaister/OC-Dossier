@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wisteria Semblance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header class="site-header">
+        <p class="access-warning">CLASSIFIED RECORD</p>
+        <h1>WISTERIA "The Viper" </h1>
+        <p class="subtitle">Subject File 001-B — Origin Record</p>
+    </header>
+
+    <main class="profile-page">
+
+        <a href="wisteria.html" class="back-link">← Return to Subject File</a>
+
+        <section class="profile-card bio-text">
+            <h2>Maw of the Viper</h2>
+
+            
+
+
+    <script>
+    const cards = document.querySelectorAll(".profile-card");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
+    });
+
+    cards.forEach(card => observer.observe(card));
+</script>
+            
+        </section>
+
+    </main>
+    
+</body>
+</html>
+
+<link rel="stylesheet" href="style.css">
