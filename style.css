@@ -182,6 +182,11 @@ footer {
         blink 0.75s step-end infinite;
 }
 
+.typewriter {
+    text-align: center;
+    margin: 0 auto;
+}
+
 @keyframes typing {
     from {
         width: 0;
