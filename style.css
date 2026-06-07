@@ -207,3 +207,7 @@ footer {
 
     border-left-width: 12px;
 }
+
+.dossier-card {
+    transition: all 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
