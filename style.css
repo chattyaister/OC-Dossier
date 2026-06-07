@@ -257,3 +257,12 @@ footer {
     border-left: 4px solid #7c3aed;
     padding-left: 15px;
 }
+
+.bio-text {
+    max-width: 850px;
+}
+
+.bio-text p {
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
