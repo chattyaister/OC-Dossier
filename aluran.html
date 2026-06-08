@@ -151,6 +151,7 @@
         
         <script>
     const cards = document.querySelectorAll( ".profile-card, .reveal-quote");
+            reveals.forEach(item => observer.observe(item));
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
