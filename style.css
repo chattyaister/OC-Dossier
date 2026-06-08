@@ -339,3 +339,17 @@ footer {
     color: #d8b4fe;
     text-align: center;
     margin: 20px 0;
+
+    .reveal-quote {
+    opacity: 0;
+    filter: blur(8px);
+
+    transition:
+        opacity 1.2s ease,
+        filter 1.2s ease;
+}
+
+.reveal-quote.show {
+    opacity: 1;
+    filter: blur(0);
+}
