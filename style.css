@@ -334,8 +334,8 @@ footer {
 
 .character-quote {
     font-style: italic;
-    font-size: 1.1em;
+    font-size: 1.6em;
 
     color: #d8b4fe;
- justify-content: center;
+    text-align: center;
     margin: 20px 0;
