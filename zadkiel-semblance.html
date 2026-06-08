@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zadkiel Semblance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <p class="access-warning">CLASSIFIED RECORD</p>
+         <h1 class="typewriter">ZADKIEL "THE SHEEP"</h1>
+        <p class="subtitle">Subject File 003-C — Semblance Archive</p>
+        <div class="header-divider"></div>
+    </header>
+
+    <main class="profile-page">
+
+        <a href="zadkiel.html" class="back-link">← Return to Subject File</a>
+          
+ <section class="profile-card">
+            <h2>Semblance: Healing Presence</h2>
+            <p>
+The ram’s semblance is a for the most part passive type, although it is not entirely uncontrollable. His semblance has the effect of healing everyone within a certain proximity of himself, mending any physical wounds obtained in battle or accident. And while his semblance cannot be ‘shut off’ at will, it’s area of effect can be reduced for an increase in intensity. 
+            </p>
+
+            <p>
+At the maximum area of effect of 15 ft radius centered around him, his healing effects are minor but noticeable. At maximum range, minor injuries such as cuts and bruises still heal at an accelerated rate, a fresh wound fading within seconds of his presence. More grave injuries will heal slowly, and while at maximum range his semblance is only strong enough to prolong someone’s life until proper help arrives.
+            </p>
+            <p> 
+If needed, however, the radius of his healing can be reduced in exchange for an increased healing potential. At the lowest range, his healing is limited to those who are physically in contact with the faunus, and with the intensity a healthy individual has the potential of surviving a fatal injury when in contact with him, recovering from their critical state in approximately thirty or so minutes. He can save a person from the grips of death so long as he is able to remain in contact with them long enough. 
+            </p>
+            <p>
+A very faint sweet scent hangs in the air where his semblance is active, a scent that many find calming. The scent carries a minor buffing effect, subduing the effect of pain in those affected- injuries simply hurt less when within his magic field, allowing those affected to continue fighting without being incapacitated by wounds. It has the unintended effect of allowing fights to go on longer than they should.
+            </p>
+            <p>
+Although the semblance does require aura, the amount of aura it uses over time simply falls under his recovery of aura over time. Because of this, while his semblance does not diminish his aura, breaking his aura shield naturally shuts off his semblance. Despite the fact that his semblance does not drain his aura, keeping its area of effect reduced to heal a single target for an extended amount of time seems to tire him out significantly.
+            </p>
+            <p>
+Although the semblance does not shut down until his aura is broken, once his aura has been broken his semblance does not return until his aura has completely replenished… and so breaking his aura once, and then constantly keeping his aura below the 100% threshold is an effective method of negating his semblance. Once his aura shield is broken, it takes three hours of undisturbed rest to recover fully.
+            </p>
+            <p>
+While his semblance remains active while he is asleep, being forcefully knocked unconscious, or losing consciousness due to overexertion, will shut it off.
+            </p>
+            <p>
+His semblance affects only those who do not actively reject it. While his semblance heals everyone within his proximity that is willing, or is simply unaware, those who are aware of his semblance and reject it does not receive its healing effects.
+            </p>
+            <p>
+The semblance does not distinguish friend or foe, and will heal anyone regardless of their alignment and their relationship to him, as long as they remain within its area of effect. 
+            </p>
+            <p>
+His semblance does not affect himself.
+            </p>
+            <p>
+His semblance does not replenish other people’s aura.
+            </p>
+            <p>
+Activation Cue: The radius of his healing can be determined by a translucent, purple field that is ever present around him, 
+            </p>
+        </section>
+
+            
+<script>
+    const reveals = document.querySelectorAll(".profile-card, .reveal-quote");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
+    });
+
+    reveals.forEach(item => observer.observe(item));
+</script>
+            
+        </section>
+
+    </main>
+    
+</body>
+</html>
+
+<link rel="stylesheet" href="style.css">
