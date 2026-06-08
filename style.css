@@ -92,7 +92,7 @@ h1 {
 
 .file-button {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 10px 15px;
 
     background: #7c3aed;
@@ -321,7 +321,7 @@ footer {
 
     gap: 15px;
 
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .site-header h1 {
