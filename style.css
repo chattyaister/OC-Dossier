@@ -350,8 +350,18 @@ footer {
 }
 
 .reveal-quote {
+    opacity: 0;
+    filter: blur(12px);
+    transform: translateY(10px);
+
     transition:
         opacity 1.5s ease 0.3s,
         filter 1.5s ease 0.3s,
         transform 1.5s ease 0.3s;
+}
+
+.reveal-quote.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
 }
