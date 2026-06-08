@@ -337,9 +337,5 @@ footer {
     font-size: 1.1em;
 
     color: #d8b4fe;
-
-    border-left: 3px solid #7c3aed;
-
-    padding-left: 15px;
-
+ justify-content: center;
     margin: 20px 0;
